@@ -5,7 +5,7 @@ project(FirstSDL3Use VERSION 1.0.0)
 #Location that stores my dependency checks
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 #Make the compiler paranoid ;p
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++23 -Wall -Wpedantic -Werror -Wextra -march=native")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wpedantic -Werror -Wextra -march=native")
 # set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11 -O3 -Wall -Wpedantic -Werror -Wextra -march=native")
 
 #Find dependencies
