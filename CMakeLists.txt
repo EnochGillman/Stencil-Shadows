@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 4.0)
+cmake_minimum_required(VERSION 3.30)
 project(FirstSDL3Use VERSION 1.0.0)
 
 # SET (CMAKE_CXX_COMPILER "/usr/bin/clang++")
